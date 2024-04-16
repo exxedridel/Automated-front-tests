@@ -1,2 +1,19 @@
-.metadata/
+# IDE-specific files
+.idea/
+*.iml
+
+# Eclipse-specific files
+.classpath
+.project
 .settings/
+.springBeans
+
+# NetBeans-specific files
+nb-configuration.xml
+
+# VS Code specific files
+.vscode/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
