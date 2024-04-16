@@ -17,7 +17,7 @@ public class MisPolizasPage_InsSers {
 	}
 	
 	@FindBy (xpath = "//*[@id=\"__next\"]/div/div[1]/div/div[1]/div/div/div[2]/div[4]") private WebElement cerrarSesionBtn;
-	@FindBy (xpath = "//*[@id=\"radix-:ri:\"]/div/div/div/div[2]/div/button/button") private WebElement verDetBtn;
+	@FindBy (id = "test-id-poliza-index-0") private WebElement poliza1st;
 	
 	
 	
@@ -27,10 +27,10 @@ public class MisPolizasPage_InsSers {
 		System.out.println("MisPolizasPage: logoutAccount..");
 		}
 	
-	public void verDet() throws InterruptedException {
-		CommonActions_InsSers.click(verDetBtn);
+	public void verPoliza1st() throws InterruptedException {
+		CommonActions_InsSers.click(poliza1st);
 //		Thread.sleep(1000);
-		System.out.println("MisPolizasPage: logoutAccount..");
+		System.out.println("MisPolizasPage: Render 1st poliza");
 		}
 
 

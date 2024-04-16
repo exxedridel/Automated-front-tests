@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-04-16T16:15:12Z" name="Default suite" finished-at="2024-04-16T16:15:26Z" duration-ms="13395">
+  <suite started-at="2024-04-16T19:55:37Z" name="Default suite" finished-at="2024-04-16T19:55:46Z" duration-ms="9163">
     <groups>
     </groups>
-    <test started-at="2024-04-16T16:15:12Z" name="Default test" finished-at="2024-04-16T16:15:26Z" duration-ms="13395">
-      <class name="tcs_InsSers.TC001_Verify_Authentication">
-        <test-method is-config="true" signature="startWebDriver()[pri:0, instance:tcs_InsSers.TC001_Verify_Authentication@680d4a6a]" started-at="2024-04-16T10:15:12Z" name="startWebDriver" finished-at="2024-04-16T10:15:13Z" duration-ms="850" status="PASS">
+    <test started-at="2024-04-16T19:55:37Z" name="Default test" finished-at="2024-04-16T19:55:46Z" duration-ms="9163">
+      <class name="tcs_InsSers.TC002_Render_Polizas_Obj">
+        <test-method is-config="true" signature="startWebDriver()[pri:0, instance:tcs_InsSers.TC002_Render_Polizas_Obj@680d4a6a]" started-at="2024-04-16T13:55:37Z" name="startWebDriver" finished-at="2024-04-16T13:55:38Z" duration-ms="568" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startWebDriver -->
-        <test-method signature="TC001()[pri:0, instance:tcs_InsSers.TC001_Verify_Authentication@680d4a6a]" started-at="2024-04-16T10:15:13Z" name="TC001" finished-at="2024-04-16T10:15:24Z" duration-ms="11281" status="PASS">
+        <test-method signature="TC002()[pri:0, instance:tcs_InsSers.TC002_Render_Polizas_Obj@680d4a6a]" started-at="2024-04-16T13:55:38Z" name="TC002" finished-at="2024-04-16T13:55:45Z" duration-ms="7256" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC001 -->
-        <test-method is-config="true" signature="closeDriver()[pri:0, instance:tcs_InsSers.TC001_Verify_Authentication@680d4a6a]" started-at="2024-04-16T10:15:24Z" name="closeDriver" finished-at="2024-04-16T10:15:26Z" duration-ms="1251" status="PASS">
+        </test-method> <!-- TC002 -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:tcs_InsSers.TC002_Render_Polizas_Obj@680d4a6a]" started-at="2024-04-16T13:55:45Z" name="closeDriver" finished-at="2024-04-16T13:55:46Z" duration-ms="1326" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeDriver -->
-      </class> <!-- tcs_InsSers.TC001_Verify_Authentication -->
+      </class> <!-- tcs_InsSers.TC002_Render_Polizas_Obj -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

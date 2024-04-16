@@ -27,23 +27,28 @@ public class TC002_Render_Polizas_Obj {
 	@Test
 	public void TC002() throws InterruptedException {
 		loginPageInsSers.loginAccount(GlobalVariables_InsSers.PASSWORD);
-		CommonActions_InsSers.takeScreenshot(driver, "TCSS-003_Render_polizas");
 		
-		Thread.sleep(5000);
-		polizasPage.verDet();
+		Thread.sleep(2000);
+		polizasPage.verPoliza1st();
 
-//		if (CommonActions_InsSers.validateURL(driver, GlobalVariables_InsSers.POLIZAS_PAGE)) {
-//			System.out.println("La URL de polizas es correcta.");
-//			Assert.assertTrue(true, "La URL es correcta.");
-//		} else {
-//			System.out.println("La URL de polizas es incorrecta.");
-//			Assert.fail("La URL es incorrecta.");
-//		}
-//
-//		polizasPage.logoutAccount();
-//
-//		loginPageInsSers.loginAccount(GlobalVariables_InsSers.WRONGPASS);
-//		boolean wrongPassText = loginPageInsSers.validateWrongPassMessage();
-//		Assert.assertTrue(wrongPassText, "mensaje de error en password mostrado correctamente");
 	}
+	
+	   @AfterTest   
+	    public void closeDriver() {
+	    	
+	    	// Otros pasos de cierre si es necesario
+	        
+	        try {
+	            // Pausa de 1 segundos (1000 milisegundos)
+	            Thread.sleep(1000);
+	            System.out.println("Test - espara 1sec final test..");
+	            CommonActions_InsSers.takeScreenshot(driver, "TC002-001_Render_1st_poliza");
+	        } catch (InterruptedException e) {
+	            // Manejar cualquier excepción que pueda ocurrir al pausar el hilo
+	            e.printStackTrace();
+	        }
+
+	        // Cierra el navegador
+	  	  	driver.quit();
+	    }
 }
